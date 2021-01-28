@@ -11,7 +11,7 @@ import 'prefs.dart';
 import 'utils.dart';
 
 void main() {
-  runApp(MaterialApp(home: HomePage()));
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: HomePage()));
 }
 
 class HomePage extends StatefulWidget {
