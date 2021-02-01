@@ -11,7 +11,7 @@ class ApplicationUtils {
   static String encodeComponent(String component) => Uri.encodeComponent(component);
 
   static const String API_KEY =
-      "CgB6e3x95ybz2bkwaLRKEOw+kf/rQkzcTnECc5YsLU4X3GglGwJAv8WEKpOjZ2Yo2UyEEbzl/wcZhlH11rDfgn0k";
+      "YOUR_API_KEY";
 
   // HTTPS POST
   static String url =
